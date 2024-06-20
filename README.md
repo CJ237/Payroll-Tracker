@@ -8,3 +8,4 @@ Application adds employees to the payroll chart.It also displays the average and
 ![Screenshot 2024-06-19 232638](https://github.com/CJ237/Payroll-Tracker/assets/79546904/21ad6fad-4ac0-47e4-ab1e-2ee3a8c44f5d)
 
 ## GitHub Pages
+https://cj237.github.io/Payroll-Tracker/
