@@ -14,7 +14,7 @@ body,
 
 body {
   font-family: sans-serif;
-  background-color: #f9fbfd;
+  background-color: #285e94;
 }
 
 .wrapper {
@@ -27,7 +27,7 @@ header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
-  color: hsl(206, 17%, 28%);
+  color: hsl(206, 16%, 81%);
 }
 
 h2 {
@@ -35,11 +35,11 @@ h2 {
 }
 
 .card {
-  background-color: hsl(0, 0%, 100%);
-  border-radius: 5px;
+  background-color: hsl(0, 51%, 85%);
+  border-radius: 10px;
   border-width: 1px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
-  color: hsl(206, 17%, 28%);
+  box-shadow: rgba(1, 2, 24, 0.342) 10px 10px 10px 10px;
+  color: hsl(206, 50%, 39%);
   font-size: 18px;
   margin: 0 auto;
   max-width: 800px;
@@ -62,11 +62,13 @@ table {
   width:100%;
   border-spacing: 0;
   border-collapse: collapse;
+
 }
 
 td{
   text-align: center;
   border:4px solid black;
+  
 }
 
 tbody tr:nth-child(even) {
@@ -93,7 +95,7 @@ tbody tr:nth-child(even) {
 
 .btn {
   border: none;
-  background-color: hsl(223, 74%, 48%);
+  background-color: #285e94;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
   color: hsl(0, 0%, 100%);
@@ -104,6 +106,14 @@ tbody tr:nth-child(even) {
   padding: 14px 34px;
   text-align: center;
   cursor: pointer;
+  border-radius: 15px;
+ 
+}
+
+button:active {
+  background-color:#1b6ec2;
+  box-shadow: 0 5px #060d2b5b;
+  transform: translateY(6px);
 }
 
 button[disabled] {
